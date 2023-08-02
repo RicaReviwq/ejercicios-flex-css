@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+}
+
+img {
+  width: 600px;
+}
+
+button {
+  font-family: Roboto, sans-serif;
+  border: none;
+  border-radius: 8px;
+  background: #eee;
+  width: 200px;
+  height: 40px;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input {
+  border: 1px solid #ddd;
+  border-radius: 16px;
+  padding: 8px 24px;
+  width: 400px;
+  margin-bottom: 16px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    font-size: 20px;  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-links{
+    list-style: none;
+    display: flex;    
+    gap: 15px;
+    margin-left: -15px;
+}
+
+.right-links{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    margin-right: 25px;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    gap: 8px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    height: 100px;
+    background: #eee;
+}
